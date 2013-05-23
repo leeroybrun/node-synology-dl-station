@@ -1,0 +1,24 @@
+{
+  "name": "synology-dl-station",
+  "version": "0.1.0",
+  "author": "Leeroy Brun <leeroy.brun@gmail.com>",
+  "description": "Module used to access Synology Download Station API from Node.js apps",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leeroybrun/node-synology-dl-station.git"
+  },
+  "keywords": [
+    "synology",
+    "download",
+    "torrents",
+    "api"
+  ],
+  "dependencies" : {
+    "request"   :  "*"
+  }, 
+  "license": "MIT",
+    "engines": [
+    "node"
+  ],
+  "main": "./lib/synology-dl-station.js"
+}
